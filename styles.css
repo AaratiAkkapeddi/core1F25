@@ -108,4 +108,7 @@ h2{
         right:0;
         pointer-events: auto;
     }
+    main{
+        width: calc(100% - (var(--padding-large) * 2));
+    }
 }

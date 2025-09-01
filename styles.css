@@ -1,0 +1,111 @@
+
+:root{
+    --font-family: Arial;
+    --font-size-body: 18px;
+    --font-size-heading: 24px;
+    --font-size-heading2: 18px;
+    --font-color: darkslategrey;
+    --background-color: antiquewhite;
+    --padding-large: 25px;
+    --padding-small: 10px;
+    --accent-color: black;
+}
+
+
+
+body{
+    line-height: 1.4;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-size: var(--font-size-body);
+    font-family: var(--font-family);
+    display: flex;
+}
+
+a, a:link, a:hover{
+    color: inherit;
+}
+h1,h2,h3{
+    font-weight: normal;
+    margin-top:0;
+    font-size: var(--font-size-heading);
+}
+nav{
+    width: calc(25% - (var(--padding-large) * 2));
+    padding: var(--padding-large);
+}
+nav a{
+    display: block;
+    padding-bottom: var(--padding-small);
+}
+
+main{
+    padding: var(--padding-large);
+    width: calc(75% - (var(--padding-large) * 2));
+}
+main > *{
+    max-width: 800px;
+}
+#mobile-nav-trigger{
+    display: none;
+}
+pre{
+    display: inline-block;
+    font-size: calc(var(--font-size-body - 2px));
+    line-height: 1;
+    padding:0;
+    margin:0;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: calc(var(--padding-large) * 2);
+    font-size: var(--font-size-heading2);
+}
+
+
+@media(max-width: 900px){
+    #mobile-nav-trigger{
+        display: block;
+        position: fixed;
+        top:0;
+        right:0;
+        padding: var(--padding-small);
+        z-index: 9;
+        cursor: pointer;
+    }
+
+    #mobile-nav-trigger > div{
+        background-color: var(--font-color);
+        height: 2px;
+        width: 50px;
+        margin: var(--padding-small);
+    }
+    #mobile-nav-trigger:hover > div{ 
+        background-color: var(--accent-color);
+
+    }
+    #mobile-nav-trigger.open > div{ 
+        background-color: var(--background-color);
+    }
+    #mobile-nav-trigger.open > div:first-child, #mobile-nav-trigger.open > div:last-child{
+      opacity: 0;
+    }
+
+
+    nav{
+        position: fixed;
+        z-index: 8;
+        right:-100vw;
+        top:0;
+        height: calc(100vh - (var(--padding-large)*2));
+        width: calc(100vw - (var(--padding-large)*2));
+        background-color: var(--font-color);
+        color: var(--background-color);
+        pointer-events: none;
+    }
+    nav.open{
+        right:0;
+        pointer-events: auto;
+    }
+}

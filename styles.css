@@ -33,6 +33,7 @@ h1,h2,h3{
 nav{
     width: calc(25% - (var(--padding-large) * 2));
     padding: var(--padding-large);
+    position: fixed;
 }
 nav a{
     display: block;
@@ -41,6 +42,7 @@ nav a{
 
 main{
     padding: var(--padding-large);
+    margin-left: calc(25% - (var(--padding-large) * 2));
     width: calc(75% - (var(--padding-large) * 2));
 }
 main > *{
@@ -65,6 +67,9 @@ h2{
 
 
 @media(max-width: 900px){
+    main{
+        margin-left:0;
+    }
     #mobile-nav-trigger{
         display: block;
         position: fixed;

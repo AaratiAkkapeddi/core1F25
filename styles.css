@@ -37,12 +37,13 @@ nav{
 }
 nav a{
     display: block;
+    font-size: 16px;
     padding-bottom: var(--padding-small);
 }
 
 main{
     padding: var(--padding-large);
-    margin-left: calc(25% - (var(--padding-large) * 2));
+    margin-left: calc(25% - (var(--padding-large) * 1));
     width: calc(75% - (var(--padding-large) * 2));
 }
 main > *{

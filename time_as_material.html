@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core 1 Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="mobile-nav-trigger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav>
+        <a href="./">Home</a>
+        <a href="./syllabus.html">Syllabus</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./readings.html">Recommended References</a>
+        <a href="./harmonic.html">Harmonic Collection</a>
+        <a href="./internetwalk.html">Internet Walk</a>
+        <a href="./linkpoem.html">Project 1: Hyperlink Poem</a>
+        <a href="./holdingposition.html">Project 2: Holding Position</a>
+        <a href="./digitalcollage.html">Project 3: Digital Collage</a>
+        <a href="./layers.html">Project 4: Layers</a>
+        <a href="./shiftingperspectives.html">Project 5: Shifting Perspectives</a>
+        <a href="./time_as_material.html">Project 6: Time as Material</a>
+        <a href="./styleguide.html">Ongoing: Styleguide</a>
+    </nav>
+
+
+    <main>
+        <h1>Project 6: Time as Material</h1>
+        <p><strong>Due 11/4 9am</strong></p>
+        <p>Create a single-page website that uses CSS keyframes to animate elements related to your harmonic collection theme over time. The animations should tell a visual story or demonstrate transformation, with interactive hover effects.</p>
+        <p><strong>Learning Objectives:</strong></p>
+        <ul>
+            <li>Master CSS keyframes and animation properties</li>
+            <li>Practice using the :hover pseudo-class for interactive animations</li>
+            <li>Practice proper HTML structure and semantic markup</li>
+            <li>Understand external CSS file linking (no more css in your html files!)</li>
+            <li>Use classes and IDs appropriately</li>
+            <li>Organize files in a logical folder structure</li>
+        </ul>
+        <p><strong>Technical Requirements:</strong></p>
+        <ul>
+            <li>Figma design for both desktop and mobile. (submit link in canvas)</li>
+            <li>Use @media queries to make sure your website works on both desktop and mobile </li>
+            <li>At least 1 @keyframes animations</li>
+            <li>At least 1 element that animates on :hover (can be combined with keyframe animation or separate from)</li>
+        </ul>
+
+        <p><strong>Theme-Based Examples:</strong></p>
+        <ul>
+            <li>If your theme is desserts: A cake that gradually gets frosted (layers appear one by one) revealing the different components that make up the cake.</li>
+            <li>If your theme is music: Sound waves that pulse continuously to a beat</li>
+            <li>If your theme is furniture: Chair that assembles piece by piece</li>
+        </ul>
+        <p><strong>Suggested Animation Patterns:</strong></p>
+        <ul>
+            <li>Entrance animations - Elements fade in or slide in when page loads</li>
+            <li>Continuous loops - Elements that rotate, pulse, or float indefinitely</li>
+            <li>Sequential animations - Using animation-delay to create a choreographed sequence</li>
+            <li>Hover animations (REQUIRED) - Elements that animate when cursor hovers over them</li>
+            <li>Transformation timeline - Show a process over time (making coffee, building furniture, etc.)</li>
+        </ul>
+        <p><strong>Examples of :hover Animations</strong></p>
+        <p>Hover triggers keyframe animation:</p>
+        <pre>
+            .element:hover {<br>
+                animation: spin 2s ease-in-out;<br>
+            }
+        </pre>
+        <p>Hover on parent affects child:</p>
+        <pre>
+            .container:hover .child {<br>
+                animation: bounce 1s infinite;<br>
+            }
+
+        </pre>
+        <p><strong>Grading Criteria:</strong></p>
+        <ul>
+
+            <li>Conceptual depth (30%): Clear, intentional perspective shift that engages with device context</li>
+            <li>Design execution (30%): Both versions are polished, cohesive, and well-designed</li>
+            <li>Technical implementation (30%): Clean code, effective use of media queries, semantic HTML</li>
+            <li>Integration with portfolio theme (10%): Successfully connects to your larger body of work</li>
+
+        </ul>
+
+        <p><strong>Additional Resources:</strong></p>
+
+        <ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes">The MDN web docs on keyframes</a></li>
+        <li><a href="https://www.w3schools.com/cssref/atrule_keyframes.php">The W3 Schools entry on keyframes</a></li>
+        <li><a href="https://www.tutorialrepublic.com/css-tutorial/css3-animations.php">This tutorial from TutorialRepublic</a></li>
+        <li><a href="https://www.smashingmagazine.com/2011/05/an-introduction-to-css3-keyframe-animations/">This introduction to keyframes by Smashing Magazine</a></li></ul>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

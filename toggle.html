@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core 1 Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="mobile-nav-trigger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav>
+        <a href="./">Home</a>
+        <a href="./syllabus.html">Syllabus</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./readings.html">Recommended References</a>
+        <a href="./harmonic.html">Harmonic Collection</a>
+        <a href="./internetwalk.html">Internet Walk</a>
+        <a href="./linkpoem.html">Project 1: Hyperlink Poem</a>
+        <a href="./holdingposition.html">Project 2: Holding Position</a>
+        <a href="./digitalcollage.html">Project 3: Digital Collage</a>
+        <a href="./layers.html">Project 4: Layers</a>
+        <a href="./shiftingperspectives.html">Project 5: Shifting Perspectives</a>
+        <a href="./time_as_material.html">Project 6: Time as Material</a>
+        <a href="./toggle.html">Project 7: Toggle</a>
+        <a href="./styleguide.html">Ongoing: Styleguide</a>
+    </nav>
+
+
+    <main>
+        <h1>Project 7: Toggle</h1>
+        <p><strong>Due 11/11 9am</strong></p>
+        <p>For this assignment, you'll create an interactive webpage that gives users control over their experience
+            through clicking. Using the classList toggle pattern we learned in class, design a feature where users can
+            customize some aspect of your page's appearance or content by clicking a button or element. This
+            customization should align with your harmonic collection theme. For example, if your theme is furniture
+            design, users might toggle between modern and vintage styles; if it's desserts, they might switch between
+            'chocolate' and 'vanilla' modes, or show/hide nutritional information; if it's music, they might click to activate a CSS animation that 
+            rotates a 'record' image or switch color schemes for different genres. The key is that clicking should
+            give the user a meaningful choice that enhances their interaction with your themed content. Your page should
+            include at least one button or clickable element and at least one element that visually changes when the
+            toggle is activated.</p>
+        <p><strong>Example of classList toggle pattern:</strong></p>
+        <p>
+        <pre>
+                let button = document.getElementbyId("color-button");<br>
+                let colorSwatch = document.getElementbyId("color-swatch");<br>
+                button.addEventListener("click", function(){       <br>
+                    if(colorSwatch.classList.contains("pink")){   <br>     
+                        colorSwatch.classList.remove("pink");<br>
+                    }else{         <br>
+                        colorSwatch.classList.add('pink');    <br> 
+                    }<br>
+                });
+            </pre>
+        </p>
+        <p><strong>Technical Requirements:</strong></p>
+        <ul>
+            <li>Figma design with four frames -- before clicking/after clicking for both desktop and mobile.(submit link
+                in canvas)</li>
+            <li>Use @media queries to make sure your website works on both desktop and mobile </li>
+            <li>At least 1 element that is clickable</li>
+            <li>At least 1 element that changes on clickable</li>
+        </ul>
+
+        <p><strong>Grading Criteria:</strong></p>
+        <ul>
+
+            <li>Conceptual depth (30%): Clear, intentional perspective shift that engages with device context</li>
+            <li>Design execution (30%): Both versions are polished, cohesive, and well-designed</li>
+            <li>Technical implementation (30%): Clean code, effective use of media queries, JS, semantic HTML</li>
+            <li>Integration with portfolio theme (10%): Successfully connects to your larger body of work</li>
+
+        </ul>
+
+        <p><strong>Additional Resources:</strong></p>
+
+        <ul>
+            <li><a href="https://drive.google.com/drive/u/1/folders/1WFYulv7B2S6R8eduMGoFZWFFstwnPbiU">Check out class
+                    demos from Nov 4</a></li>
+        </ul>
+
+        <p><strong>Inspo:</strong></p>
+        <ul>
+            <li><a href="https://clickclickclick.click/#11a6eb19b2a2ad35718055adb7925efe">button</a></li>
+            <li><a href="https://thehtml.review/04/">The HTML Review</a></li>
+            <li><a href="https://emreed.net/LowTech_Directory"> Low Tech Webring Directory</a></li>
+            <li><a href="https://diagram.website/"> Diagram Website -- another directory of cool sites</a></li>
+            <li><a href="https://downpour.games/~holly/where-s-madeleine"> Where's Madeleine</a></li>
+            <li><a href="https://www.aliciaguo.com/love-me-or-not/">love me or not</a></li>
+        </ul>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

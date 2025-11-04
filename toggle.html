@@ -51,11 +51,9 @@
                 let button = document.getElementbyId("color-button");<br>
                 let colorSwatch = document.getElementbyId("color-swatch");<br>
                 button.addEventListener("click", function(){       <br>
-                    if(colorSwatch.classList.contains("pink")){   <br>     
-                        colorSwatch.classList.remove("pink");<br>
-                    }else{         <br>
-                        colorSwatch.classList.add('pink');    <br> 
-                    }<br>
+ 
+                        colorSwatch.classList.toggle("pink");<br>
+    
                 });
             </pre>
         </p>

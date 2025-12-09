@@ -1,5 +1,6 @@
 Class Project Websites:
 
+Jisoo
 https://github.com/yoonj112/harmonic-collection-
 https://yoonj112.github.io/harmonic-collection-/
 

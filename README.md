@@ -1,7 +1,7 @@
 Class Project Websites:
 
 Jisoo  
-[https://github.com/yoonj112/harmonic-collection-  ](https://github.com/yoonj112/intimate-internal-invisible-irregular-innerlog)
+https://github.com/yoonj112/intimate-internal-invisible-irregular-innerlog
 https://yoonj112.github.io/intimate-internal-invisible-irregular-innerlog/
 
 Josephine

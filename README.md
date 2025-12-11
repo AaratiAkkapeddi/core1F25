@@ -1,8 +1,12 @@
 Class Project Websites:
 
 Jisoo  
-https://github.com/yoonj112/harmonic-collection-  
-https://yoonj112.github.io/harmonic-collection-/
+[https://github.com/yoonj112/harmonic-collection-  ](https://github.com/yoonj112/intimate-internal-invisible-irregular-innerlog)
+https://yoonj112.github.io/intimate-internal-invisible-irregular-innerlog/
+
+Josephine
+https://github.com/jxxuiee/my-website
+https://jxxuiee.github.io/my-website
 
 Tanaya  
 https://github.com/tanayaagarwal/east-village-guide  

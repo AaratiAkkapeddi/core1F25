@@ -1,13 +1,13 @@
 Class Project Websites:
-Aleesha
-https://github.com/aleeshaadhami/harmoniccollection
-https://aleeshaadhami.github.io/harmoniccollection/
+Aleesha  
+https://github.com/aleeshaadhami/harmoniccollection  
+https://aleeshaadhami.github.io/harmoniccollection/  
 
-Jisoo  
+Jisoo   
 https://github.com/yoonj112/intimate-internal-invisible-irregular-innerlog  
 https://yoonj112.github.io/intimate-internal-invisible-irregular-innerlog/
 
-Josephine
+Josephine  
 https://github.com/jxxuiee/my-website  
 https://jxxuiee.github.io/my-website
 
